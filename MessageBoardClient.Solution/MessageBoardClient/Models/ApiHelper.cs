@@ -20,10 +20,19 @@ namespace MessageBoardClient.Models
       return response.Content;
     }
 
-     public static async Task Post(string newMessage)
+    public static async Task Post(string newMessage)
     {
       RestClient client = new RestClient("http://localhost:5000/api");
       RestRequest request = new RestRequest($"messages", Method.POST);
+      request.AddHeader("Content-Type", "application/json");
+      request.AddJsonBody(newMessage);
+      var response = await client.ExecuteTaskAsync(request);
+    }
+
+    public static async Task Put(int id, string newMessage)
+    {
+      RestClient client = new RestClient("http://localhost:5000/api");
+      RestRequest request = new RestRequest($"messages/{id}", Method.PUT);
       request.AddHeader("Content-Type", "application/json");
       request.AddJsonBody(newMessage);
       var response = await client.ExecuteTaskAsync(request);
