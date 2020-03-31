@@ -29,12 +29,10 @@ namespace MessageBoard.Controllers
       {
         query = query.Where(entry => entry.Group == group);
       }
-      
       if (postDate != null)
       {
         query = query.Where(entry => entry.PostDate == postDate);
       }
-
       if (userName != null)
       {
         query = query.Where(entry => entry.UserName == userName);
@@ -47,7 +45,6 @@ namespace MessageBoard.Controllers
       {
         query = query.Where(entry => entry.PostDate <= end);
       }
-
       return query.ToList();
     }
     
@@ -74,21 +71,8 @@ namespace MessageBoard.Controllers
       {
         _db.Entry(message).State = EntityState.Modified;
         _db.SaveChanges();
-        
       }
     }
-
-    // [HttpPut("{id}")]
-    //  public void Put(int id, [FromBody] Experience experience, string author)
-    //  {
-    //     experience.ExperienceId = id;
-    //     if (experience.Author == author)
-    //     {
-    //       _db.Entry(experience).State = EntityState.Modified;
-    //       _db.SaveChanges();
-    //     }
-    //  }
-
      
     // DELETE api/messages/5
     [HttpDelete("{id}")]

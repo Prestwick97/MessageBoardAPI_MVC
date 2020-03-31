@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\MessageBoard.csproj",
+      "projectUniqueName": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj",
       "projectName": "MessageBoard",
-      "projectPath": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\MessageBoard.csproj",
+      "projectPath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj",
       "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\obj\\",
+      "outputPath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
