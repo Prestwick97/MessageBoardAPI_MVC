@@ -1,0 +1,14 @@
+<h1>All Messages:</h1>
+
+<ol>
+@foreach (Message message in Model)
+{
+    <ul>
+        <h3>Group: @message.Group</h3>
+        <p>ID: @message.MessageId - User Name: @message.UserName</p>
+        <li>Content: @message.Content</li>
+    </ul>
+    <a href="/Animals/Details/@(animal.AnimalId)"><p>View Details</p></a>
+    <br>
+}
+</ol>

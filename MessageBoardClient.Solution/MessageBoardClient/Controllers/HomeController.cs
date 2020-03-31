@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using MessageBoardClient.Solution.Models;
+using MessageBoardClient.Models;
 
-namespace MessageBoardClient.Solution.Controllers
+namespace MessageBoardClient.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient.Solution.csproj": {}
+    "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient.Solution.csproj": {
+    "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient.Solution.csproj",
+        "projectUniqueName": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.Solution.csproj",
         "projectName": "MessageBoardClient.Solution",
-        "projectPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient.Solution.csproj",
+        "projectPath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.Solution.csproj",
         "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\obj\\",
+        "outputPath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
