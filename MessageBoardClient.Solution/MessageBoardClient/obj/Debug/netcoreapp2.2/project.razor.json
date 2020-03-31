@@ -2976,18 +2976,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\Views\\Messages\\Details.cshtml",
+      "TargetPath": "Views\\Messages\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {

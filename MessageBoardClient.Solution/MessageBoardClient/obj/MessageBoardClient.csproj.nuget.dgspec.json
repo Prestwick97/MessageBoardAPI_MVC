@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj": {}
+    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj": {
+    "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj",
-        "projectName": "MessageBoard",
-        "projectPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\MessageBoard.csproj",
+        "projectUniqueName": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.csproj",
+        "projectName": "MessageBoardClient",
+        "projectPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\MessageBoardClient.csproj",
         "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoard\\obj\\",
+        "outputPath": "C:\\Users\\viole\\desktop\\MessageBoard.Solution\\MessageBoardClient.Solution\\MessageBoardClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,19 +50,19 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[12.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
             }
           },
           "imports": [

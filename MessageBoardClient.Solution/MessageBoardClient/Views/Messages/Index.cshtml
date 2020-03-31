@@ -1,3 +1,4 @@
+@using MessageBoardClient.Models
 <h1>All Messages:</h1>
 
 <ol>
@@ -6,10 +7,10 @@
     <ul>
         <h3>Group: @message.Group</h3>
         <p>ID: @message.MessageId - User Name: @message.UserName</p>
-        <li>Content: @message.Age</li>
+        <li>Content: @message.Content</li>
 
     </ul>
-    <a href="/Messages/Details/@(messages.MessageId)"><p>View Details</p></a>
+    <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a>
     <br>
 }
 </ol>
