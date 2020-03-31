@@ -12150,23 +12150,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/patrickdelaney/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\viole\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/patrickdelaney/Desktop/MessageBoard.Solution/MessageBoard/MessageBoard.csproj",
+      "projectUniqueName": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\MessageBoard.csproj",
       "projectName": "MessageBoard",
-      "projectPath": "/Users/patrickdelaney/Desktop/MessageBoard.Solution/MessageBoard/MessageBoard.csproj",
-      "packagesPath": "/Users/patrickdelaney/.nuget/packages/",
-      "outputPath": "/Users/patrickdelaney/Desktop/MessageBoard.Solution/MessageBoard/obj/",
+      "projectPath": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\MessageBoard.csproj",
+      "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\viole\\desktop\\MessageBoardAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/patrickdelaney/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

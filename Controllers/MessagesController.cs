@@ -29,6 +29,10 @@ namespace MessageBoard.Controllers
       {
         query = query.Where(entry => entry.Group == group);
       }
+      if (group != null && postDate == null)
+      {
+        query = query.Where(entry => entry.Group == group);
+      }
       if (postDate != null)
       {
         query = query.Where(entry => entry.PostDate == postDate);
