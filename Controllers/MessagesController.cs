@@ -21,7 +21,7 @@ namespace MessageBoard.Controllers
 
     // GET api/messages
     [HttpGet]
-    public ActionResult<IEnumerable<Message>> Get(string group, DateTime postDate)
+    public ActionResult<IEnumerable<Message>> Get(string group, DateTime? postDate, string userName)
     {
       var query = _db.Messages.AsQueryable();
 
@@ -29,15 +29,16 @@ namespace MessageBoard.Controllers
       {
         query = query.Where(entry => entry.Group == group);
       }
-      if (group != null && postDate == null)
-      {
-        query = query.Where(entry => entry.Group == group);
-      }
+      
       if (postDate != null)
       {
         query = query.Where(entry => entry.PostDate == postDate);
       }
 
+      if (userName != null)
+      {
+        query = query.Where(entry => entry.UserName == userName);
+      }
 
       return query.ToList();
     }
@@ -56,9 +57,15 @@ namespace MessageBoard.Controllers
       _db.SaveChanges();
     }
     
-    [HttpPut("{id}")]
-    public void Put(int id, [FromBody] Message message)
+    // PUT api/messages/5
+    [HttpPut("{id}{userName}")]
+    public void Put(int id, string userName [FromBody] Message message)
     {
+      if(entry.userName != userName)
+      {
+        
+      }
+      message.UserName = userName;
       message.MessageId = id;
       _db.Entry(message).State = EntityState.Modified;
       _db.SaveChanges();
