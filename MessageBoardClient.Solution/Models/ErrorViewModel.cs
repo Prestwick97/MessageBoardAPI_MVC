@@ -1,6 +1,6 @@
 using System;
 
-namespace MessageBoardClient.Solution.Models
+namespace MessageBoardClient.Models
 {
     public class ErrorViewModel
     {
