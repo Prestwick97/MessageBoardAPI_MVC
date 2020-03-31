@@ -58,18 +58,30 @@ namespace MessageBoard.Controllers
     }
     
     // PUT api/messages/5
-    [HttpPut("{id}{userName}")]
-    public void Put(int id, string userName [FromBody] Message message)
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] Message message, string userName)
     {
-      if(entry.userName != userName)
+      message.MessageId = id;
+      if(message.UserName == userName)
       {
+        _db.Entry(message).State = EntityState.Modified;
+        _db.SaveChanges();
         
       }
-      message.UserName = userName;
-      message.MessageId = id;
-      _db.Entry(message).State = EntityState.Modified;
-      _db.SaveChanges();
     }
+
+    // [HttpPut("{id}")]
+    //  public void Put(int id, [FromBody] Experience experience, string author)
+    //  {
+    //     experience.ExperienceId = id;
+    //     if (experience.Author == author)
+    //     {
+    //       _db.Entry(experience).State = EntityState.Modified;
+    //       _db.SaveChanges();
+    //     }
+    //  }
+
+     
     // DELETE api/messages/5
     [HttpDelete("{id}")]
     public void Delete(int id)
