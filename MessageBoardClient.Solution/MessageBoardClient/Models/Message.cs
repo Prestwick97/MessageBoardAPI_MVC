@@ -39,5 +39,10 @@ namespace MessageBoardClient.Models
       string jsonMessage = JsonConvert.SerializeObject(message);
       var apiCallTask = ApiHelper.Post(jsonMessage);
     }
+
+    public static void Delete(int id)
+    {
+      var apiCallTask = ApiHelper.Delete(id);
+    }
   }
 }
