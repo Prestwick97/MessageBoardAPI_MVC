@@ -12,7 +12,7 @@ string groupName = "";
   @if (groupName != message.Group)
   {
     <ul>
-        <h3><a href="./?group=@(message.Group)">@message.Group</a></h3>
+        <h3>@Html.ActionLink($"{message.Group}", "GroupMessages", "Messages", new {groupName = message.Group})</h3>
     </ul>
     <br>
   }
@@ -20,3 +20,4 @@ string groupName = "";
 }
 </ol>
 
+<p>@Html.ActionLink("Home", "Index", "Home")</p>

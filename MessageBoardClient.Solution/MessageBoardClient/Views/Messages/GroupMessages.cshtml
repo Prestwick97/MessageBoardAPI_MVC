@@ -1,9 +1,13 @@
 @using MessageBoardClient.Models
-<h1>All Messages:</h1>
+@using System.Linq
+
+
+<h1>All Messages in :</h1>
 
 <ol>
 @foreach (Message message in Model)
 {
+  
     <ul>
         <h3>Group: @message.Group</h3>
         <p>ID: @message.MessageId - User Name: @message.UserName</p>
@@ -12,6 +16,7 @@
     </ul>
     <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a>
     <br>
+  
 }
 </ol>
 

@@ -26,16 +26,16 @@ namespace MessageBoardClient.Models
 
     // ------------------------Experiment----------------------------
 
-    // public static List<Message> GetGroupMessages()
-    // {
-    //   var apiCallTask = ApiHelper.GetGroup();
-    //   var result = apiCallTask.Result;
+    public static List<Message> GetGroupMessages(string group)
+    {
+      var apiCallTask = ApiHelper.GetGroup(group);
+      var result = apiCallTask.Result;
 
-    //   JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
-    //   List<Message> messageList = JsonConvert.DeserializeObject<List<Message>>(jsonResponse.ToString());
+      JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
+      List<Message> messageList = JsonConvert.DeserializeObject<List<Message>>(jsonResponse.ToString());
 
-    //   return messageList;
-    // }
+      return messageList;
+    }
     // ------------------------Experiment----------------------------
 
     public static Message GetDetails(int id)

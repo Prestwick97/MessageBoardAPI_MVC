@@ -22,11 +22,11 @@ namespace MessageBoardClient.Controllers
       return View(allMessages);
     }
 
-    // public IActionResult ----()
-    // {
-    //   var group = Message.GetGroup();
-    //   return View(allMessages);
-    // }
+    public IActionResult GroupMessages(string groupName)
+    {
+      var groupMessages = Message.GetGroupMessages(groupName);
+      return View(groupMessages);
+    }
 
     // public IActionResult Details(int id)
     // {
