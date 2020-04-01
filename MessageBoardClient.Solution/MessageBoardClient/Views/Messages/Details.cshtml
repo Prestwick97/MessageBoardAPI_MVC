@@ -1,2 +1,19 @@
 @using MessageBoardClient.Models
+<!-- @{
+    ViewData["Title"] = "Details";
+} -->
+
 <h1>Message Details</h1>
+<ul>
+    <li>ID: @Model.MessageId</li>
+    <li>Content: @Model.Content</li>
+    <li>Group: @Model.Group</li>
+    <li>Date Posted: @Model.PostDate</li>
+    <li>User: @Model.UserName</li>
+</ul>
+<br>
+
+<!-- <a href="/Messages/Edit/@(Model.MessageId)"><p>Edit</p></a>
+<br> -->
+
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
