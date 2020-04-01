@@ -1,16 +1,26 @@
 @using MessageBoardClient.Models
-
+@* @model MessageBoardClient.Models *@
 <h1>New Message:</h1>
 
-@using (Html.BeginForm())
-{
-  @Html.LabelFor(model => model.UserName)
-  @Html.TextBoxFor(model => model.UserName)<br>
-  @Html.LabelFor(model => model.Content)
-  @Html.TextBoxFor(model => model.Content)<br>
-
-  @Html.Label("Select group:")
-  @Html.DropDownList("group")<br>
-
-  <input type="submit" value="Post" class="btn" />
+@{
+string groupName = "";
 }
+
+<form action="/messages" method="post">
+  <label for="username">Username</label>
+  <input id="username" username="username" type="text">
+  <label for="content">Content</label>
+  <input id="content" name="content" type="text">
+    @Html.Label("Select group:")
+  <select id="group" name="group">
+     @foreach (Message message in Model)
+     {
+        @if (groupName != message.Group)
+        {
+         <option>@message.Group</option>
+        }
+        groupName = message.Group;
+     }
+  </select>
+  <button type="submit">Go!</button>
+</form>
