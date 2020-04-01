@@ -23,7 +23,22 @@ namespace MessageBoardClient.Models
 
       return messageList;
     }
-     public static Message GetDetails(int id)
+
+    // ------------------------Experiment----------------------------
+
+    // public static List<Message> GetGroupMessages()
+    // {
+    //   var apiCallTask = ApiHelper.GetGroup();
+    //   var result = apiCallTask.Result;
+
+    //   JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
+    //   List<Message> messageList = JsonConvert.DeserializeObject<List<Message>>(jsonResponse.ToString());
+
+    //   return messageList;
+    // }
+    // ------------------------Experiment----------------------------
+
+    public static Message GetDetails(int id)
     {
       var apiCallTask = ApiHelper.Get(id);
       var result = apiCallTask.Result;
@@ -34,7 +49,7 @@ namespace MessageBoardClient.Models
       return message;
     }
 
-     public static void Post(Message message)
+    public static void Post(Message message)
     {
       string jsonMessage = JsonConvert.SerializeObject(message);
       var apiCallTask = ApiHelper.Post(jsonMessage);
@@ -50,5 +65,7 @@ namespace MessageBoardClient.Models
     {
       var apiCallTask = ApiHelper.Delete(id);
     }
+
+
   }
 }

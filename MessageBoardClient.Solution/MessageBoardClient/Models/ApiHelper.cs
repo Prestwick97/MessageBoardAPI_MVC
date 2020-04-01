@@ -12,14 +12,22 @@ namespace MessageBoardClient.Models
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
-     public static async Task<string> Get(int id)
+    public static async Task<string> Get(int id)
     {
       RestClient client = new RestClient("http://localhost:5000/api");
       RestRequest request = new RestRequest($"messages/{id}", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
-
+    // // ------------------------Experiment----------------------------
+    // public static async Task<string> GetGroup(string group)
+    // {
+    //   RestClient client = new RestClient("http://localhost:5000/api");
+    //   RestRequest request = new RestRequest($"messages/?group={group}", Method.GET);
+    //   var response = await client.ExecuteTaskAsync(request);
+    //   return response.Content;
+    // }
+    // ------------------------Experiment----------------------------
     public static async Task Post(string newMessage)
     {
       RestClient client = new RestClient("http://localhost:5000/api");

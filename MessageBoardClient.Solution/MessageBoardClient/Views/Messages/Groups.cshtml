@@ -5,10 +5,10 @@
 @foreach (Message message in Model)
 {
     <ul>
-        <h3><a href="Messages/?group=@(message.Group)">Group: @message.Group</h3></a>
+        <h3><a href="./?group=@(message.Group)">Group: @message.Group</a></h3>
     
     </ul>
-    <!-- <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a> -->
+    <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a> 
     <br>
 }
 </ol>
