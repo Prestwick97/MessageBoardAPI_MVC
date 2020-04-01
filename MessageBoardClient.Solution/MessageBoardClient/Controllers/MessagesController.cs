@@ -5,6 +5,8 @@ using System.Linq;
 // using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MessageBoardClient.Models;
+using System.ComponentModel;
+using System;
 
 namespace MessageBoardClient.Controllers
 {
@@ -30,6 +32,14 @@ namespace MessageBoardClient.Controllers
     [HttpPost]
     public IActionResult Create(Message message)
     {
+      Console.WriteLine(message);
+
+      foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(message))
+      {
+        string name = descriptor.Name;
+        object value = descriptor.GetValue(message);
+        Console.WriteLine("{0}={1}", name, value);
+      }
       Message.Post(message);
       return RedirectToAction("Index");
     }

@@ -1,5 +1,5 @@
 @using MessageBoardClient.Models
-@* @model MessageBoardClient.Models *@
+@* @model MessageBoardClient.Models.Message *@
 <h1>New Message:</h1>
 
 @{
@@ -7,8 +7,8 @@ string groupName = "";
 }
 
 <form action="/messages" method="post">
-  <label for="username">Username</label>
-  <input id="username" username="username" type="text">
+  <label for="userName">Username</label>
+  <input id="userName" username="userName" type="text">
   <label for="content">Content</label>
   <input id="content" name="content" type="text">
     @Html.Label("Select group:")
@@ -22,5 +22,7 @@ string groupName = "";
         groupName = message.Group;
      }
   </select>
+  <label for="postDate">Post Date:</label>
+  <input type="date" id="postDate" name="postDate">
   <button type="submit">Go!</button>
 </form>
