@@ -1,14 +1,22 @@
 @using MessageBoardClient.Models
-<h1>All Messages:</h1>
+@using System.Linq
+<h1>All Groups:</h1>
+
+@{
+string groupName = "";
+}
 
 <ol>
 @foreach (Message message in Model)
 {
+  @if (groupName != message.Group)
+  {
     <ul>
-        <h3><a href="./?group=@(message.Group)">Group: @message.Group</a></h3>
-    
+        <h3><a href="./?group=@(message.Group)">@message.Group</a></h3>
     </ul>
-    <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a> 
     <br>
+  }
+  groupName = message.Group;
 }
 </ol>
+
