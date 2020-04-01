@@ -29,6 +29,12 @@ namespace MessageBoardClient.Controllers
       return RedirectToAction("Index");
     }
 
+    public IActionResult Details(int id)
+    {
+      var message = Message.GetDetails(id);
+      return View(message);
+    }
+
     public IActionResult GroupMessages(string groupName)
     {
       var groupMessages = Message.GetGroupMessages(groupName);
