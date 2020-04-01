@@ -27,6 +27,7 @@ namespace MessageBoardClient.Models
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
+
     // ------------------------Experiment----------------------------
     public static async Task Post(string newMessage)
     {
@@ -34,7 +35,7 @@ namespace MessageBoardClient.Models
       RestRequest request = new RestRequest($"messages", Method.POST);
       request.AddHeader("Content-Type", "application/json");
       request.AddJsonBody(newMessage);
-      var response = await client.ExecuteTaskAsync(request);
+      var respone = await client.ExecuteTaskAsync(request);
     }
 
     public static async Task Put(int id, string newMessage)

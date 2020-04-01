@@ -22,16 +22,17 @@ namespace MessageBoardClient.Controllers
       return View(allMessages);
     }
 
+    [HttpPost]
+    public IActionResult Create(Message message)
+    {
+      Message.Post(message);
+      return RedirectToAction("Index");
+    }
+
     public IActionResult GroupMessages(string groupName)
     {
       var groupMessages = Message.GetGroupMessages(groupName);
       return View(groupMessages);
     }
-
-    // public IActionResult Details(int id)
-    // {
-    //   var animal = Animal.GetDetails(id);
-    //   return View(animal);
-    // }
   }
 }

@@ -31,6 +31,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Create.cshtml",
+      "TargetPath": "Views\\Messages\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Index.cshtml",
       "TargetPath": "Views\\Messages\\Index.cshtml",
       "FileKind": "mvc"

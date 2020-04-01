@@ -24,8 +24,6 @@ namespace MessageBoardClient.Models
       return messageList;
     }
 
-    // ------------------------Experiment----------------------------
-
     public static List<Message> GetGroupMessages(string group)
     {
       var apiCallTask = ApiHelper.GetGroup(group);
@@ -36,8 +34,6 @@ namespace MessageBoardClient.Models
 
       return messageList;
     }
-    // ------------------------Experiment----------------------------
-
     public static Message GetDetails(int id)
     {
       var apiCallTask = ApiHelper.Get(id);

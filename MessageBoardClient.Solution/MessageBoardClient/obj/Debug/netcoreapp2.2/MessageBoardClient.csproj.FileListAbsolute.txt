@@ -59,3 +59,5 @@ C:/Users/viole/desktop/MessageBoard.Solution/MessageBoardClient.Solution/Message
 /Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/Debug/netcoreapp2.2/MessageBoardClient.pdb
 /Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/Debug/netcoreapp2.2/MessageBoardClient.csproj.CopyComplete
 /Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Groups.g.cshtml.cs
+/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/Debug/netcoreapp2.2/Razor/Views/Messages/GroupMessages.g.cshtml.cs
+/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/Debug/netcoreapp2.2/Razor/Views/Messages/Create.g.cshtml.cs
