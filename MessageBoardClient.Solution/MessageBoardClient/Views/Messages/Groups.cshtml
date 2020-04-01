@@ -1,0 +1,14 @@
+@using MessageBoardClient.Models
+<h1>All Messages:</h1>
+
+<ol>
+@foreach (Message message in Model)
+{
+    <ul>
+        <h3><a href="Messages/?group=@(message.Group)">Group: @message.Group</h3></a>
+    
+    </ul>
+    <!-- <a href="/Messages/Details/@(message.MessageId)"><p>View Details</p></a> -->
+    <br>
+}
+</ol>

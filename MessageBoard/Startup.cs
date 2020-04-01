@@ -27,7 +27,6 @@ namespace MessageBoard
         o.DefaultApiVersion = new ApiVersion(1, 0);
       });
 
-
       services.AddDbContext<MessageBoardContext>(opt =>
       opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

@@ -8,14 +8,26 @@ using MessageBoardClient.Models;
 
 namespace MessageBoardClient.Controllers
 {
-    public class MessagesController : Controller
+  public class MessagesController : Controller
+  {
+    public IActionResult Index()
     {
-        public IActionResult Index()
-        {
-        var allMessages = Message.GetMessages();
-        return View(allMessages);
-        }
+      var allMessages = Message.GetMessages();
+      return View(allMessages);
     }
 
-    
+    public IActionResult Groups()
+    {
+      var allMessages = Message.GetMessages();
+      return View(allMessages);
+
+    }
+
+  }
+
+  // public IActionResult Details(int id)
+  // {
+  //   var animal = Animal.GetDetails(id);
+  //   return View(animal);
+  // }
 }
