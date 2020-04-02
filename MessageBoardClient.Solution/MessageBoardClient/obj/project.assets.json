@@ -12103,11 +12103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
+      "projectUniqueName": "/Users/patrickdelaney/Desktop/MessageBoardAPI_MVC/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
       "projectName": "MessageBoardClient",
-      "projectPath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
+      "projectPath": "/Users/patrickdelaney/Desktop/MessageBoardAPI_MVC/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
       "packagesPath": "/Users/patrickdelaney/.nuget/packages/",
-      "outputPath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/obj/",
+      "outputPath": "/Users/patrickdelaney/Desktop/MessageBoardAPI_MVC/MessageBoardClient.Solution/MessageBoardClient/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

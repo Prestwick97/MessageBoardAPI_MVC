@@ -26,8 +26,9 @@ namespace MessageBoardClient.Controllers
 
     public IActionResult Create()
     {
-      var allMessages = Message.GetMessages().OrderBy(message => message.Group);
-      return View(allMessages);
+      // var allMessages = Message.GetMessages();
+      // return View(allMessages);
+      return View();
     }
 
     [HttpPost]
