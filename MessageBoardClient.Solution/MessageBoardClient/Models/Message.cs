@@ -10,7 +10,7 @@ namespace MessageBoardClient.Models
     public int MessageId { get; set; }
     public string Content { get; set; }
     public string Group { get; set; }
-    public DateTime PostDate { get; set; }
+    // public DateTime PostDate { get; set; }
     public string UserName { get; set; }
 
     public static List<Message> GetMessages()

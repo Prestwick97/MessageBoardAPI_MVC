@@ -35,7 +35,7 @@ namespace MessageBoardClient.Controllers
     {
       Console.WriteLine(message);
 
-      message.PostDate = DateTime.Now;
+      // message.PostDate = DateTime.Now;
 
       foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(message))
       {

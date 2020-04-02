@@ -12,7 +12,7 @@ namespace MessageBoard.Models
     [StringLength(25, ErrorMessage = "Don't")]
     public string Group { get; set; }
     // [DisplayFormat(DataFormatString="{0:MM/dd/yyyy}")]
-    public DateTime PostDate { get; set; }
+    // public DateTime PostDate { get; set; }
     public string UserName { get; set; }
   }
 }

@@ -20,8 +20,9 @@ namespace MessageBoard.Controllers
     }
 
     // GET api/messages
+    //  public ActionResult<IEnumerable<Message>> Get(string group, DateTime? postDate, string userName, DateTime? start, DateTime? end)
     [HttpGet]
-    public ActionResult<IEnumerable<Message>> Get(string group, DateTime? postDate, string userName, DateTime? start, DateTime? end)
+    public ActionResult<IEnumerable<Message>> Get(string group, string userName)
     {
       var query = _db.Messages.AsQueryable();
 
@@ -29,23 +30,23 @@ namespace MessageBoard.Controllers
       {
         query = query.Where(entry => entry.Group == group);
       }
-      if (postDate != null)
-      {
-        query = query.Where(entry => entry.PostDate == postDate);
-      }
+      // if (postDate != null)
+      // {
+      //   query = query.Where(entry => entry.PostDate == postDate);
+      // }
       if (userName != null)
       {
         query = query.Where(entry => entry.UserName == userName);
       }
-      if (start != null)
-      {
-        query = query.Where(entry => entry.PostDate >= start);
-      }
-      if (end != null)
-      {
-        query = query.Where(entry => entry.PostDate <= end);
-      }
-      return query.ToList();
+      // if (start != null)
+      // {
+      //   query = query.Where(entry => entry.PostDate >= start);
+      // }
+      // if (end != null)
+      // {
+      //   query = query.Where(entry => entry.PostDate <= end);
+      // }
+      // return query.ToList();
     }
     
     [HttpGet("{id}")]
