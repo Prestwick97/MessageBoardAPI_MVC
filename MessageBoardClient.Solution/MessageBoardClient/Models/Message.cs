@@ -62,6 +62,5 @@ namespace MessageBoardClient.Models
       var apiCallTask = ApiHelper.Delete(id);
     }
 
-
   }
 }

@@ -59,5 +59,10 @@ namespace MessageBoardClient.Controllers
       var groupMessages = Message.GetGroupMessages(groupName);
       return View(groupMessages);
     }
+    public IActionResult Delete(int id)
+    {
+      Message.Delete(id);
+      return RedirectToAction("Index");
+    }
   }
 }

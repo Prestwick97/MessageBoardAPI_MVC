@@ -13,7 +13,7 @@
 </ul>
 <br>
 
-<!-- <a href="/Messages/Edit/@(Model.MessageId)"><p>Edit</p></a>
-<br> -->
-
+<a href="/Messages/Delete/@(Model.MessageId)"><p>Delete</p></a>
+<br> 
+<p>@Html.ActionLink("Delete this post?", "Delete", new {id=Model.messageId})</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
