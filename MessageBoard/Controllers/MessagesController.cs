@@ -46,7 +46,7 @@ namespace MessageBoard.Controllers
       // {
       //   query = query.Where(entry => entry.PostDate <= end);
       // }
-      // return query.ToList();
+      return query.ToList();
     }
     
     [HttpGet("{id}")]
