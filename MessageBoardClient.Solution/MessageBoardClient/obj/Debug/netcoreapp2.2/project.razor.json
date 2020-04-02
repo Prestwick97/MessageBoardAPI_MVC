@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
+  "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/MessageBoardClient.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -16,58 +16,58 @@
   "RootNamespace": "MessageBoardClient",
   "Documents": [
     {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Groups.cshtml",
-      "TargetPath": "Views\\Messages\\Groups.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Create.cshtml",
-      "TargetPath": "Views\\Messages\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Index.cshtml",
-      "TargetPath": "Views\\Messages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/GroupMessages.cshtml",
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/GroupMessages.cshtml",
       "TargetPath": "Views\\Messages\\GroupMessages.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/JoseAmesquita/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Details.cshtml",
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Create.cshtml",
+      "TargetPath": "Views\\Messages\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Details.cshtml",
       "TargetPath": "Views\\Messages\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Index.cshtml",
+      "TargetPath": "Views\\Messages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Groups.cshtml",
+      "TargetPath": "Views\\Messages\\Groups.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI/MessageBoardClient.Solution/MessageBoardClient/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

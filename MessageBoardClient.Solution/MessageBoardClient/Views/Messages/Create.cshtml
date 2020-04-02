@@ -8,7 +8,7 @@ string groupName = "";
 
 <form action="/messages" method="post">
   <label for="userName">Username</label>
-  <input id="userName" username="userName" type="text">
+  <input id="userName" name="userName" type="text">
   <label for="content">Content</label>
   <input id="content" name="content" type="text">
     @Html.Label("Select group:")
@@ -22,7 +22,7 @@ string groupName = "";
         groupName = message.Group;
      }
   </select>
-  <label for="postDate">Post Date:</label>
-  <input type="date" id="postDate" name="postDate">
+  @* <label for="postDate">Post Date:</label>
+  <input type="date" id="postDate" name="postDate"> *@
   <button type="submit">Go!</button>
 </form>

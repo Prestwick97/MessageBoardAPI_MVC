@@ -1,4 +1,4 @@
-// using System;
+
 using System.Collections.Generic;
 // using System.Diagnostics;
 using System.Linq;
@@ -23,6 +23,7 @@ namespace MessageBoardClient.Controllers
       var allMessages = Message.GetMessages().OrderBy(message => message.Group);
       return View(allMessages);
     }
+
     public IActionResult Create()
     {
       var allMessages = Message.GetMessages().OrderBy(message => message.Group);
@@ -33,6 +34,8 @@ namespace MessageBoardClient.Controllers
     public IActionResult Create(Message message)
     {
       Console.WriteLine(message);
+
+      message.PostDate = DateTime.Now;
 
       foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(message))
       {
