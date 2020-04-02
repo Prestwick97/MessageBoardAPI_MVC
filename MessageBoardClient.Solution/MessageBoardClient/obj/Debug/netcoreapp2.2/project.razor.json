@@ -3014,11 +3014,6 @@
       "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI_MVC/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Details.cshtml",
       "TargetPath": "Views\\Messages\\Details.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/patrickdelaney/Desktop/MessageBoardAPI_MVC/MessageBoardClient.Solution/MessageBoardClient/Views/Messages/Delete.cshtml",
-      "TargetPath": "Views\\Messages\\Delete.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

@@ -62,6 +62,7 @@ namespace MessageBoardClient.Controllers
     public IActionResult Delete(int id)
     {
       Message.Delete(id);
+      //var apiCallTask = ApiHelper.Delete(id); ?
       return RedirectToAction("Index");
     }
   }
